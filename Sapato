@@ -1,0 +1,7 @@
+public class Sapato extends Produto {
+
+    @Override
+    public Double getIPI() {
+        return 0.135;
+    }
+}
