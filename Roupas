@@ -1,0 +1,7 @@
+public class Roupas extends Produto {
+
+    @Override
+    public Double getIPI() {
+        return 0.03;
+    }
+}
