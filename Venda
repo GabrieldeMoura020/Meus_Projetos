@@ -1,0 +1,55 @@
+import java.time.LocalDate;
+import java.util.List;
+
+public class Venda {
+
+    private Integer id;
+    private String vendedor;
+    private LocalDate data;
+    private String cliente;
+    private List <itensVenda> itensVendas;
+
+//    public Double getVenda(){
+//
+//    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getVendedor() {
+        return vendedor;
+    }
+
+    public void setVendedor(String vendedor) {
+        this.vendedor = vendedor;
+    }
+
+    public LocalDate getData() {
+        return data;
+    }
+
+    public void setData(LocalDate data) {
+        this.data = data;
+    }
+
+    public String getCliente() {
+        return cliente;
+    }
+
+    public void setCliente(String cliente) {
+        this.cliente = cliente;
+    }
+
+    public List<itensVenda> getItensVendas() {
+        return itensVendas;
+    }
+
+    public void setItensVendas(List<itensVenda> itensVendas) {
+        this.itensVendas = itensVendas;
+    }
+}
